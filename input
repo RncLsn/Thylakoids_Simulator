@@ -1,0 +1,54 @@
+A_1               8.699E2
+!A_1               10.699E2
+k_onda            9.1E6
+
+n_st              1.36
+n_me              1.42
+n_lu              1.33
+
+Z_st              277
+Z_me              265
+Z_lu              283
+
+N_gr              1
+N_til             10
+
+D_me              5E-9
+D_min             1E-9
+D_st              8E-9
+D_lu              8E-9
+d_lu              0.7
+
+T                 293
+sigma             -0.025
+C1                1
+ni_p              0.5
+epsilon_st        7.08E-10
+
+z_mg              2
+z_k               1
+z_cl             -1
+
+c_mg             1E-3
+c_k              1E-3
+c_cl             1E-3
+
+ro_mg            6.64E-19
+ro_k             3.32E-19
+ro_cl            6.64E-19
+H                10E-7
+
+R_ATP            1E3
+R_NADPH          1E3
+R_lu             1E3
+alfa_PSII        1E-9
+beta_PSI         1E-9
+gamma_b6f        1
+gamma_OEC        1
+eta_H            1E19
+
+!teta             6E2
+!teta             8E2
+teta             2E2
+
+N_iter           100

@@ -1,0 +1,23 @@
+# impostazioni
+set terminal png
+# set lmargin 6
+set grid
+
+# disegno 1
+set output "./results/input.png"
+set size 1, 0.7
+set xlabel "time"
+set ylabel "light"
+set yrange [0:1100]
+set xrange [0:10]
+plot "./results/ingresso.dat"
+
+# disegno 2
+set output "./results/time-length.png"
+set size 1, 0.7
+set xlabel "time"
+set ylabel "length [m]"
+# set lmargin 6
+set yrange [1.04e-06:1.15e-06]
+set xrange [0:10]
+plot "./results/tempo-dimensione.dat"
