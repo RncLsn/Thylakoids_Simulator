@@ -1,0 +1,11 @@
+This project consists in the realization of a program that simulates thylakoids behaviour.
+
+User guide:
+    - open terminal and set directory "Simulator-x.x" directory
+    - insert input data in the "input" file. String format "<name> <value>\n"
+    - commands:
+       $ make                       to compile
+       $ make run                   to execute (it generates also charts)
+       $ make plot_do               to generate charts without computing
+       $ make clean_all             to delete binary files and results
+       $ make clean_results         to delete only results 
